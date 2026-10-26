@@ -1,0 +1,29 @@
+# Données (non publiées)
+data/raw/
+*.xlsx
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# LaTeX (fichiers de compilation)
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.xdv
+*.fls
+*.fdb_latexmk
+*.synctex.gz
